@@ -25,7 +25,7 @@ module.exports = [
   },
   {
     category: "theme_birthday",
-    title: "Theme Birthday Decoration",
+    title: "Theme Based Birthday Decoration",
     description: "Creative themed birthday parties that bring joy and excitement to your celebration.",
     icon: "🎂",
   },
@@ -33,6 +33,24 @@ module.exports = [
     category: "anniversary",
     title: "Anniversary Decoration",
     description: "Romantic and elegant setups to celebrate your love and milestones.",
+    icon: "💕",
+  },
+   {
+    category: "baby_shower",
+    title: "Baby Shower Decoration",
+    description: "Beautiful and elegant setups to celebrate your love and milestones.",
+    icon: "💕",
+  },
+   {
+    category: "flower_decoration",
+    title: "Flower Decoration",
+    description: "Romantic and elegant setups using flowers.",
+    icon: "💕",
+  },
+   {
+    category: "firework",
+    title: "Firework Decoration",
+    description: "Make your Entry memoration using firework decoration.",
     icon: "💕",
   },
 ];
