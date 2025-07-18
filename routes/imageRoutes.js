@@ -5,9 +5,9 @@ const { createImageSet, getAllImageSets, updateImageSet } = require('../controll
 
 router.post('/', upload.array('images', 8), createImageSet);
 router.get('/', getAllImageSets);
-router.post('/id',
-    (req, res) => res.status(400).send('ID parameter is required') // Placeholder for handling missing ID
-);
+// router.post('/id',
+//     (req, res) => res.status(400).send('ID parameter is required') // Placeholder for handling missing ID
+// );
 router.put('/id/:id', upload.array('images', 8), updateImageSet);
 
 module.exports = router;
