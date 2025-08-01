@@ -14,5 +14,8 @@ app.use(express.json());
 connectDB();
 
 app.use('/api/images', imageRoutes);
+app.get('/for-cons', (req, res) => {
+  res.status(200).send('For consumers');
+});
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
